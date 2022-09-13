@@ -25,12 +25,11 @@ import java.util.Scanner;
  * @author Oscar A. Peña C.
  */
 public class Previa_1 {
-    private static String OUT_OF_RANGE_EXCEPTION = "EXCEPCIÓN FUERA DE RANGO";
+    private static final String OUT_OF_RANGE_EXCEPTION = "EXCEPCIÓN FUERA DE RANGO";
     public static void main(String[] args) throws HandledException  {
         int numero;
         System.out.println("Bienvenido al programa");
         Scanner leer = new Scanner(System.in);
-        
         System.out.println("Digite un año");
         try {
             numero=leer.nextInt();
